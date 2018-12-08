@@ -7,21 +7,37 @@ main h1 {
 h2 {
 	font-size: 30px;
 }
-
 h1, h2{
 	font-family: "Open Sans Condensed sans-serif", sans-serif;
 }
 body {
 	background-color: #F2FFFC;
 }
-
 p {
 	text-align: justify;
 	font-family: "Crimson Text serif", serif;
 }
-
 footer {
-	background-color: #0f0f0f;
-	color: #f2f3f4;
+	background-color: black;
+	color: #F2FFFC;
+}
+blockquote {
+	background-color: #D9E5E3;
+}
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+footer a {
+	color: #F2FFFC;
+}
+main a {
+	color: #851944;
+}
+ul {
+	font-family: "Open Sans Condensed", sans-serif;
+}
+ul li a{
+	color: inherit;
 }
 
