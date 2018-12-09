@@ -1,5 +1,5 @@
 main h1 {
-	font-size: 40px;
+	font-size: 60px;
 	background-color: #851944;
 	color: #FFFFFF;
 	text-align: center;
@@ -11,7 +11,7 @@ h2 {
 	font-size: 30px;
 }
 h1, h2{
-	font-family: "Open Sans Condensed sans-serif", sans-serif;
+	font-family: "Open Sans Condensed", sans-serif;
 }
 body {
 	background-color: #F2FFFC;
@@ -20,6 +20,7 @@ body {
 p {
 	text-align: justify;
 	font-family: "Crimson Text serif", serif;
+	margin: 20px 0;
 }
 footer {
 	background-color: black;
@@ -27,7 +28,7 @@ footer {
 }
 blockquote {
 	background-color: #D9E5E3;
-	margin: 0px;
+	margin: 20px 40px;
 	border: 10px solid #C2CCCA;
 	width: 250px;
 	box-sizing : border-box;
@@ -36,6 +37,10 @@ aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align: center;
+}
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
 }
 footer a {
 	color: #F2FFFC;
@@ -58,7 +63,14 @@ blockquote, aside, footer {
 }
 main div {
 	width: 720px;
+	padding: 30px 0;
 	margin-left: auto;
-	margin-right: auto; 
+	margin-right: auto;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
 }
 
