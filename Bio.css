@@ -1,4 +1,4 @@
-main h1 {
+.titulo-pagina {
 	font-size: 60px;
 	background-color: #851944;
 	color: #FFFFFF;
@@ -6,9 +6,13 @@ main h1 {
 	padding: 40px;
 	margin: 0px;
 	border-bottom: 10px solid black;
+	text-transform: uppercase;
 }
 h2 {
 	font-size: 30px;
+}
+.conteiner h2 {
+	clear: both;
 }
 h1, h2{
 	font-family: "Open Sans Condensed", sans-serif;
@@ -25,6 +29,7 @@ p {
 footer {
 	background-color: black;
 	color: #F2FFFC;
+	clear: both;
 }
 blockquote {
 	background-color: #D9E5E3;
@@ -33,20 +38,77 @@ blockquote {
 	width: 250px;
 	box-sizing : border-box;
 }
-aside {
+cite {
+	font-style: italic;
+	float: right;
+}
+.blockquote-direita {
+	float: right;
+}
+
+.blockquote-esquerda {
+	float: left;	
+}
+article{
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #CCC;
+}
+.barra-navegacao {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align: center;
 }
+aside, img {
+	float: right;
+	width: 20%
+}
+img, aside {
+	border-bottom: 10px solid black;
+	border-left: 10px solid black;
+}
+aside {
+	box-sizing: border-box;
+}
 aside h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
+	text-transform: uppercase;
 }
-footer a {
-	color: #F2FFFC;
+.icones-sociais li {
+	display: inline-block;
+}
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	color: transparent;
+}
+.github {
+	background-image: url(github.png);
+}
+.twitter {
+	background-image: url(twitter.png);
+}
+.linkedin {
+	background-image: url(linkedin.png);
+}
+.rodape-social {
+	margin-left: 60px;
+	margin-top: 10px;
 }
 main a {
 	color: #851944;
+}
+.link-leia-mais {
+	padding: 8px;
+	margin: 16px 300px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+	text-decoration: none;
+	border: 1px solid #C2CCCA;
 }
 ul {
 	font-family: "Open Sans Condensed", sans-serif;
@@ -58,14 +120,15 @@ ul li a {
 aside a {
 	text-decoration: none;
 }
-blockquote, aside, footer {
+blockquote, aside, footer{
 	padding: 20px;
 }
 main div {
-	width: 720px;
+	width: 70%;
 	padding: 30px 0;
-	margin-left: auto;
+	margin-left: 40px;
 	margin-right: auto;
+	float: left;
 }
 strong {
 	font-weight: bold;
